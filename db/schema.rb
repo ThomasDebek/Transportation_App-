@@ -10,9 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_12_09_211044) do
+ActiveRecord::Schema[8.0].define(version: 2024_12_09_211155) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
+
+  create_table "line_stops", force: :cascade do |t|
+    t.bigint "line_id", null: false
+    t.bigint "stop_id", null: false
+    t.integer "sequence"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["line_id"], name: "index_line_stops_on_line_id"
+    t.index ["stop_id"], name: "index_line_stops_on_stop_id"
+  end
 
   create_table "lines", force: :cascade do |t|
     t.string "name"
@@ -42,6 +52,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_12_09_211044) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "line_stops", "lines"
+  add_foreign_key "line_stops", "stops"
   add_foreign_key "schedules", "lines"
   add_foreign_key "schedules", "stops"
 end
