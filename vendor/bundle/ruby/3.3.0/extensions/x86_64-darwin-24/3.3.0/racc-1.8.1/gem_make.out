@@ -1,0 +1,18 @@
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-3dz2jl sitelibdir\=./.gem.20241209-13600-3dz2jl clean
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-3dz2jl sitelibdir\=./.gem.20241209-13600-3dz2jl
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-3dz2jl sitelibdir\=./.gem.20241209-13600-3dz2jl install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20241209-13600-3dz2jl/racc
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-3dz2jl sitelibdir\=./.gem.20241209-13600-3dz2jl clean

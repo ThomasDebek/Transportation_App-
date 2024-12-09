@@ -1,0 +1,18 @@
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-eyr4hq sitelibdir\=./.gem.20241209-13600-eyr4hq clean
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-eyr4hq sitelibdir\=./.gem.20241209-13600-eyr4hq
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-eyr4hq sitelibdir\=./.gem.20241209-13600-eyr4hq install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20241209-13600-eyr4hq
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-eyr4hq sitelibdir\=./.gem.20241209-13600-eyr4hq clean

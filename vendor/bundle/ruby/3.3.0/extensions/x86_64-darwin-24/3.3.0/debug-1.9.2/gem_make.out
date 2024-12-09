@@ -1,0 +1,19 @@
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-6k8bf4 sitelibdir\=./.gem.20241209-13600-6k8bf4 clean
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-6k8bf4 sitelibdir\=./.gem.20241209-13600-6k8bf4
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-6k8bf4 sitelibdir\=./.gem.20241209-13600-6k8bf4 install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20241209-13600-6k8bf4/debug
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-6k8bf4 sitelibdir\=./.gem.20241209-13600-6k8bf4 clean

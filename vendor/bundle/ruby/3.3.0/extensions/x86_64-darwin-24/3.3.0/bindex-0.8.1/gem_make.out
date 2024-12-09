@@ -1,0 +1,18 @@
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-o4gp6n sitelibdir\=./.gem.20241209-13600-o4gp6n clean
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-o4gp6n sitelibdir\=./.gem.20241209-13600-o4gp6n
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-o4gp6n sitelibdir\=./.gem.20241209-13600-o4gp6n install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20241209-13600-o4gp6n/skiptrace/internal
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Transportation_App/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241209-13600-o4gp6n sitelibdir\=./.gem.20241209-13600-o4gp6n clean
