@@ -1,0 +1,7 @@
+<h1>Line <%= @line.name %></h1>
+<h2>Stops:</h2>
+<ol>
+  <% @stops.each do |stop| %>
+    <li><%= link_to stop.name, stop_path(stop) %></li>
+  <% end %>
+</ol>
