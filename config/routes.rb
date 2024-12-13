@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root "stops#index" # Strona główna aplikacji
+  devise_for :users
+
+  root "stops#index"
 
   resources :stops, only: [:index, :show] do
     member do
