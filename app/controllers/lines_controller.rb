@@ -1,4 +1,5 @@
 class LinesController < ApplicationController
+  before_action :authenticate_user!
   def index
     @lines = Line.all
   end
